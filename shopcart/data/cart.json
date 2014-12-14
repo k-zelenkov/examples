@@ -1,0 +1,18 @@
+[
+    {
+        "productId": "product-2",
+        "title": "Avensis",
+        "price": 2500,
+        "description": "The Toyota Avensis is a large family car.",
+        "quantity": 2,
+        "img": "img/avensis-1.jpg"
+    },
+    {
+        "productId": "product-4",
+        "title": "Corolla",
+        "price": 150,
+        "description": "The Toyota Corolla is a line of subcompact and compact cars.",
+        "quantity": 5,
+        "img": "img/corolla-3.jpg"
+    }
+]

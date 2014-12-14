@@ -1,0 +1,58 @@
+.container-fluid {
+    position: relative;
+}
+.cart {
+    display: none;
+}
+.go-back {
+    float: right;
+}
+#cart-block {
+    position: fixed;
+    right: 20px;
+    top: 7px;
+}
+#cart,
+h1.cart,
+#cart-other {
+    margin-left: auto;
+    margin-right: auto;
+    width: 800px;
+}
+#cart-other {
+    margin-bottom: 20px;
+}
+#messages {
+    position: fixed;
+    left: 150px;
+    top: 10px;
+    width: 400px;
+    z-index: 10;
+}
+
+.price {
+    font-size: 18px;
+    margin-top: 10px;
+}
+.price span {
+    line-height: 30px;
+}
+.price span.label {
+    font-size: 24px;
+}
+#cart .price {
+    font-size: 16px;
+    margin-top: 7px;
+    margin-bottom: 0;
+}
+#cart .price span {
+    line-height: 22px;
+}
+.alert {
+    margin-bottom: 5px;
+}
+#cart-other .price-total {
+    float: right;
+    margin: 0;
+    text-align: right;
+}

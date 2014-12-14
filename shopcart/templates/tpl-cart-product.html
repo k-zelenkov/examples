@@ -1,0 +1,22 @@
+<div class="thumbnail clearfix">
+    <div class="image span2">
+        <img src="<%= img %>" alt="<%= title %>" height="50" />
+    </div>
+    <div class="span10">
+        <h4><%= title %></h4>
+        <div class="navbar">
+            <div class="navbar-inner">
+                <p class="price span4">
+                    <span>Price:</span> <span class="label label-info">$<%= price %></span>
+                </p>
+                <p class="price span4">
+                    <span>Summ:</span> <span class="label label-info">$<%= summ %></span>
+                </p>
+                <div class="span4 navbar-form pull-right">
+                    <input class="span7" type="number" min="0" value="<%= quantity %>" />
+                    <div class="btn btn-danger remove">Remove</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

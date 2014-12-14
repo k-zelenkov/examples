@@ -1,0 +1,58 @@
+[
+    {
+        "productId": "product-1",
+        "title": "Auris",
+        "price": 1500,
+        "description": "The Toyota Auris is a compact 3 door and 5 door hatchback.",
+        "img": "img/auris-1.jpg"
+    },
+    {
+        "productId": "product-2",
+        "title": "Avensis",
+        "price": 2500,
+        "description": "The Toyota Avensis is a large family car.",
+        "img": "img/avensis-1.jpg"
+    },
+    {
+        "productId": "product-3",
+        "title": "Camry",
+        "price": 1250,
+        "description": "Discover Camry, Toyota's legendary mid-size car.",
+        "img": "img/camry-1.jpg"
+    },
+    {
+        "productId": "product-4",
+        "title": "Corolla",
+        "price": 150,
+        "description": "The Toyota Corolla is a line of subcompact and compact cars.",
+        "img": "img/corolla-3.jpg"
+    },
+    {
+        "productId": "product-5",
+        "title": "Land Cruiser Prado",
+        "price": 15000,
+        "description": "Toyota Land Cruiser Prado is a mid-size four-wheel drive vehicle in the Toyota Land.",
+        "img": "img/landcruiserprado-4.jpg"
+    },
+    {
+        "productId": "product-6",
+        "title": "Prius",
+        "price": 5500,
+        "description": "The Toyota Prius is a full hybrid electric mid-size hatchback, formerly a compact sedan developed and manufactured by Toyota.",
+        "img": "img/prius-2.jpg"
+    },
+    {
+        "productId": "product-7",
+        "title": "Verso",
+        "price": 2150,
+        "description": "The Toyota Verso (codenamed ZGR20 or AUR20) is a 5-door estate compact MPV by the Japanese automaker Toyota.",
+        "img": "img/verso-1.jpg"
+    },
+    {
+        "productId": "product-8",
+        "title": "Hiace",
+        "price": 1550,
+        "description": "The name \"Yaris\" is derived from a goddess in Greek mythology, named \"CHARIS\", who was a symbol of beauty and elegance combined together with...",
+        "img": "img/yaris-4.jpg"
+    }
+]
