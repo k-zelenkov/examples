@@ -1,10 +1,10 @@
 define([
     "backbone",
-    "collections/CartProductCollection",
-    "views/CartProductView",
-    "collections/MessageCollection",
-    "text!../../templates/tpl-cart.html",
-    "text!../../templates/tpl-other.html"
+    "../collections/CartProductCollection",
+    "./CartProductView",
+    "../collections/MessageCollection",
+    "text!templates/tpl-cart.html",
+    "text!templates/tpl-other.html"
 ], function(Backbone, CartProductCollection, CartProductView, MessageCollection, cartTemplate, cartOtherTemplate){
     var CartView = Backbone.View.extend({
         // DOM element

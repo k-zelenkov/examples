@@ -1,6 +1,6 @@
 define([
     "backbone",
-    "models/CartProductModel",
+    "../models/CartProductModel",
     "localStorage"
 ], function(Backbone, CartProductModel){
     var CartProductCollection = Backbone.Collection.extend({

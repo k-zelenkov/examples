@@ -1,8 +1,8 @@
 define([
     "backbone",
-    "views/ProductsView",
-    "views/CartBlockView",
-    "views/CartView"
+    "../views/ProductsView",
+    "../views/CartBlockView",
+    "../views/CartView"
 ], function(Backbone, ProductsView, CartBlockView, CartView){
     var Controller = Backbone.Router.extend({
         // Define pages and functions for its

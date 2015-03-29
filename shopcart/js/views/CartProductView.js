@@ -1,6 +1,6 @@
 define([
     "backbone",
-    "text!../../templates/tpl-cart-product.html"
+    "text!templates/tpl-cart-product.html"
 ], function(Backbone, cartProductTemplate){
     var CartProductView = Backbone.View.extend({
         // wrapper tag

@@ -1,8 +1,8 @@
 define([
     "backbone",
-    "collections/MessageCollection",
-    "views/MessageView",
-    "text!../../templates/tpl-messages.html"
+    "../collections/MessageCollection",
+    "./MessageView",
+    "text!templates/tpl-messages.html"
 ], function(Backbone, MessageCollection, MessageView, messagesTemplate){
     var MessagesView = Backbone.View.extend({
         el: "#messages",

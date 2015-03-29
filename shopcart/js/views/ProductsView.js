@@ -1,8 +1,8 @@
 define([
     "backbone",
-    "collections/ProductCollection",
-    "views/ProductView",
-    "text!../../templates/tpl-products.html"
+    "../collections/ProductCollection",
+    "./ProductView",
+    "text!templates/tpl-products.html"
 ], function(Backbone, ProductCollection, ProductView, productsTemplate){
         var ProductsView = Backbone.View.extend({
             el: "#products",

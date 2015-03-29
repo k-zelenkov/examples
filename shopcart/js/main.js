@@ -1,13 +1,14 @@
 // Use require.js
 requirejs.config({
-//    baseUrl: '..',
+    baseUrl: './',
     // paths to libraries
     paths: {
-        jquery: "libraries/jquery",
-        underscore: "libraries/underscore",
-        backbone: "libraries/backbone",
-        localStorage: "libraries/backbone.localStorage",
-        text: "libraries/text"
+        jquery: "js/libraries/jquery",
+        underscore: "js/libraries/underscore",
+        backbone: "js/libraries/backbone",
+        localStorage: "js/libraries/backbone.localStorage",
+        text: "js/libraries/text",
+        templates: "templates"
     },
     // set dependences for libraries
     shim: {
@@ -24,8 +25,8 @@ requirejs.config({
     }
 });
 require([
-    "controllers/Controller",
-    "views/MessagesView"
+    "js/controllers/Controller",
+    "js/views/MessagesView"
 ], function(Controller, MessagesView){
     var messagesView = new MessagesView;
 

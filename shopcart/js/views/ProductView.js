@@ -1,9 +1,9 @@
 define([
     "backbone",
-    "collections/CartProductCollection",
-    "collections/MessageCollection",
-    "views/CartBlockView",
-    "text!../../templates/tpl-product.html"
+    "../collections/CartProductCollection",
+    "../collections/MessageCollection",
+    "./CartBlockView",
+    "text!templates/tpl-product.html"
 ], function(Backbone, CartProductCollection, MessageCollection, CartBlockView, productTemplate){
     var ProductView = Backbone.View.extend({
         tagName: "li",

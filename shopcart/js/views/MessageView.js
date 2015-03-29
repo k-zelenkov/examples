@@ -1,6 +1,6 @@
 define([
     "backbone",
-    "text!../../templates/tpl-message.html"
+    "text!templates/tpl-message.html"
 ], function(Backbone, messageTemplate){
     var MessageView = Backbone.View.extend({
         tagName: "div",

@@ -1,6 +1,6 @@
 define([
     'backbone',
-    'models/ProductModel'
+    '../models/ProductModel'
 ], function(Backbone, ProductModel){
     var ProductCollection = Backbone.Collection.extend({
         // Reference to this collection's model.

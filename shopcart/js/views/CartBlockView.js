@@ -1,8 +1,8 @@
 define([
     "backbone",
-    "collections/CartProductCollection",
-    "models/CartProductModel",
-    "text!../../templates/tpl-cart-block.html"
+    "../collections/CartProductCollection",
+    "../models/CartProductModel",
+    "text!templates/tpl-cart-block.html"
 ], function(Backbone, CartProductCollection, CartProductModel, cartBlockTemplate){
     var CartBlockView = Backbone.View.extend({
         // DOM element
